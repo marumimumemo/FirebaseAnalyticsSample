@@ -138,6 +138,7 @@
 				A690BF54246407DB00093CD1 /* Sources */,
 				A690BF55246407DB00093CD1 /* Frameworks */,
 				A690BF56246407DB00093CD1 /* Resources */,
+				A695933F24652D7700AB5921 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -194,6 +195,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A695933F24652D7700AB5921 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PROJECT_DIR}/FirebaseCrashlytics/run\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A690BF54246407DB00093CD1 /* Sources */ = {
