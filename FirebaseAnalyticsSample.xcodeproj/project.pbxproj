@@ -214,7 +214,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "${PROJECT_DIR}/FirebaseCrashlytics/run\n";
+			shellScript = "${PROJECT_DIR}/scripts/run\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
